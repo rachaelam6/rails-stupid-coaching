@@ -1,0 +1,12 @@
+<h1>Stupid Coaching!</h1>
+
+<p>
+<%= @answer %>
+</p>
+
+
+<%# Backlink from /answer to /ask %>
+<%# Add a link to /ask on the answer.html.erb view using the link_to Rails helper. %>
+<div class="link">
+<%= link_to "Ask a new question", ask_path %>
+</div>
